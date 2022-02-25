@@ -6,7 +6,7 @@ const express = require('express'),
 
 // Set the views directory and template engine
 app.set('views', __dirname + '/views');
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 
 // Set our static directory for public assets like client scripts
 app.use(express.static('public'));
